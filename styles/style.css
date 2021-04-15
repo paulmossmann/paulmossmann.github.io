@@ -134,3 +134,19 @@ li{
     font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     color: #ddd;
 }
+
+/*
+Options Paint
+*/
+
+.optionsPaint{
+    background-color: white;
+    height: 700px;
+    width: 140px;
+    position: absolute;
+}
+
+#resetCanvas{
+    margin-right: auto;
+    margin-left: auto;
+}

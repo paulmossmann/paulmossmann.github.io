@@ -1,16 +1,46 @@
 <html>
 
 <head>
-    <title>Game Of Life !</title>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Paul Mossmann</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 
-
 <body>
-    <button onclick="window.location.href='version_1/gol.html'">Game Of life - Version 1</button>
-    <button onclick="window.location.href='version_2/gol.html'">Game Of life - Version 2</button>
-    <button onclick="window.location.href='/index.html'">Index</button>
+    <nav class="topnav">
+        <div class="topnavCenter">
+            <a href="index.html">Accueil</a>
+            <a href="projets.html">Projets</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="divPrincipalText">
+            <div class="contenerText">
+                <h1>Game of Life</h1>
+                <h2>C'est quoi ?</h2>
+                <p>Game of Life (ou Jeu de la vie en français) est un jeu de simulation de cellules qui vivent et qui
+                    meurs en suivant 2 règles. Le jeu  se joue avec aucun joueur.
+                </p>
+                <h2>Les règles</h2>
+                <p>La première règle est que si une cellule est morte, et qu'elle possède 3 cellules voisines vivantes, alors elle naît</p>
+                <p>La deuxième règle est que si une cellule vivante possède 2 ou trois cellules voisines elle reste vivante, sinon elle meurt
+                </p>
+                
+            </div>
+            
+            <button onclick="window.location.href='version_1/gol.html'">Game Of life - Version 1</button>
+            <button onclick="window.location.href='version_2/gol.html'">Game Of life - Version 2</button>
+            <button onclick="window.location.href='/index.html'">Index</button>
+        </div>
+    </main>
+    
+    <script src="index.js"></script>
+
 </body>
 
-</html> 
+</html>
+
+
+

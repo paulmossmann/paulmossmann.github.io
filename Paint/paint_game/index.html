@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Paul Mossmann</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../styles/style.css">
+</head>
+
+<body>
+    <nav class="topnav">
+        <div class="topnavCenter">
+            <a href="index.html">Accueil</a>
+            <a href="projets.html">Projets</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="divPrincipalText">
+
+            <div class="contenerText">
+                <h1>Paint</h1>
+                <div class="optionsPaint">
+                    <input type="color" id="color" name="head" value="black">
+                    <input type="range" min="1" max="80" value="10" class="slider" id="myRange">
+                    <button id="crayon">Crayon</button>
+                    <button id="gomme">Gomme</button>
+                    <button id="resetCanvas">Reset</button>
+                </div>
+                <div>
+                    <canvas id="gameScreen" width="880" height="825"></canvas>
+                </div>
+                <script src="paint_game/index.js"></script>
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
