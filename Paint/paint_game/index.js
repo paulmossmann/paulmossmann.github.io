@@ -42,6 +42,7 @@ document.getElementById("crayon").addEventListener("click", function () {
 });
 
 
+// Lorsque le clique souris est en bas
 function mousedown(canvas, evt) {
     var mousePos = getMousePos(canvas, evt);
     isMouseDown = true
